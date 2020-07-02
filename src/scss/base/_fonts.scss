@@ -1,0 +1,14 @@
+@import "../_mixins/font-face.scss";
+
+@include font-face("Great Vibes", "../fonts/GreatVibes-Regular", 400);
+
+@include font-face("Open Sans", "../fonts/OpenSans-Regular", 400);
+@include font-face("Open Sans", "../fonts/OpenSans-Italic", 400, Italic);
+@include font-face("Open Sans", "../fonts/OpenSans-Light", 300);
+@include font-face("Open Sans", "../fonts/OpenSans-LightItalic", 300, Italic);
+@include font-face("Open Sans", "../fonts/OpenSans-SemiBold", 600);
+@include font-face("Open Sans", "../fonts/OpenSans-SemiBoldItalic", 600, Italic);
+@include font-face("Open Sans", "../fonts/OpenSans-Bold", 700);
+@include font-face("Open Sans", "../fonts/OpenSans-BoldItalic", 700, Italic);
+@include font-face("Open Sans", "../fonts/OpenSans-ExtraBold", 800);
+@include font-face("Open Sans", "../fonts/OpenSans-ExtraBoldItalic", 800, Italic);

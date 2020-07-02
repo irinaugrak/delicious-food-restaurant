@@ -1,0 +1,35 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #717274 url(../img/bg_welcome.jpg) no-repeat center center / cover;
+}
+.welcome-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    padding: 60px;
+    background-color: white;
+    opacity: 0.9;
+    outline: 1px solid $red;
+    outline-offset: -15px;
+    &__title {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    &__name {
+        font-family: "Great Vibes", sans-serif;
+        color: #B10400;
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+    &__slogan {
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+}
