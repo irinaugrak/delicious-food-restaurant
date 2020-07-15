@@ -1,0 +1,16 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__slogan {
+        font-family: "Great Vibes", sans-serif;
+        color: #B10400;
+        font-size: 2.7rem;
+    }
+    &__title {
+        letter-spacing: 0.5rem;
+        color: wheat;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+    }
+}
