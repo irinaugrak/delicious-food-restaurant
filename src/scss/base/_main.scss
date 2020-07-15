@@ -17,14 +17,15 @@ body {
   min-width: 320px;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Cantata One", "Open Sans", sans-serif;
   font-size: 14px;
   color: $text;
 }
 .container {
-  width: 1200px;
+  max-width: 1200px;
   box-sizing: border-box;
   margin: 0 auto;
+  padding: 0 20px;
 }
 h1, h2, p {
   margin: 0;

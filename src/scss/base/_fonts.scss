@@ -1,5 +1,7 @@
 @import "../_mixins/font-face.scss";
 
+@include font-face("Cantata One", "../fonts/CantataOne-Regular", 400);
+
 @include font-face("Great Vibes", "../fonts/GreatVibes-Regular", 400);
 
 @include font-face("Open Sans", "../fonts/OpenSans-Regular", 400);

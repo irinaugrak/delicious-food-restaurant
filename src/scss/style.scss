@@ -2,6 +2,8 @@
 @import "../scss/base/fonts";
 @import '../scss/base/variables';
 @import '../scss/base/main';
-@import '../scss/base/header';
-@import '../scss/base/welcome';
+@import '../scss/components/header';
+@import '../scss/components/logo';
+@import '../scss/components/navigation';
+@import '../scss/components/welcome';
 @import '../scss/components/button'
